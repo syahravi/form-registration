@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contoh form pendaftaran</title>
+	</head>
+	<body>
+		<h1 align="center">Free Registration</h1>
+		<table align="center">
+			<form>
+			<tr>
+				<td>Nama</td>
+				<td>
+					<input type="text" name="nama" placeholder="Masukan nama anda">
+				</td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td>
+					<input type="text" style="width: 25px" placeholder="dd"> /
+					<input type="text" style="width: 25px" placeholder="mm"> /
+					<input type="text" style="width: 50px" placeholder="yyyy">
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Alamat</td>
+				<td>
+					<textarea placeholder="Masukan alamat anda" cols="20" rows="2"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Kota</td>
+				<td>
+					<input type="text" name="username" placeholder="Masukan kota anda">
+				</td>
+			</tr>	
+			<tr>
+				<td>Pekerjaan</td>
+				<td>
+					<select>
+						<option>Belum / Tidak Bekerja</option>
+						<option>Mengurus Rumah Tangga</option>
+						<option>Pelajar / Mahasiswa</option>
+						<option>Pensiunan</option>
+						<option>Pegawai Negeri Sipil</option>
+						<option>Tentara Nasional Indonesia</option>
+						<option>Kepolisian RI</option>
+						<option>Perdagangan</option>
+						<option>Petani / Pekebun</option>
+						<option>Peternak</option>
+						<option>Nelayan / Perikanan</option>
+						<option>Industri</option>
+						<option>Konstruksi</option>
+						<option>Transportasi</option>
+						<option>Karyawan Swasta</option>
+						<option>Karyawan BUMN</option>
+						<option>Karyawan Honorer</option>
+						<option>Buruh Harian Lepas</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>
+					<input type="radio" id="l" name="gender" value="l" checked>
+					<label for="l">Laki - Laki</label>
+					<input type="radio" id="p" name="gender" value="p">
+					<label for="p">Perempuan</label>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">Hobby</td>
+				<td>
+					<input type="checkbox" name="hobby1" value="hobby1">
+					<label for="hobby1">Reading</label><br>
+					<input type="checkbox" name="hobby2" value="hobby2">
+					<label for="hobby2">Sport</label><br>
+					<input type="checkbox" name="hobby3" value="hobby3">
+					<label for="hobby3">Singing</label><br>
+					<input type="checkbox" name="hobby4" value="hobby4">
+					<label for="hobby4">Travelling</label>
+				</td>
+			<tr>
+				<td>
+				</td>
+				<td>
+					<input type="button" value="Kirim">
+					<input type="reset" value="Cancel">
+				</td>
+			</tr>
+			</form>
+		</table>
+	</body>
+</html>
